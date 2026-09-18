@@ -8,15 +8,13 @@ it in the next version for everyone.*
 
 ---
 
-Between **Merge Combinator, LLC** ("Merge") and **________________________**
-("You"), effective **____________**.
+Between **Merge Combinator, LLC** ("Merge") and **{{counterparty_name}}**
+("You"), effective **{{effective_date}}**.
 
 **What we are doing.** We are spending thirty days finding out whether there is a
 venture worth forming around:
 
-> ______________________________________________________________
->
-> ______________________________________________________________
+> {{opportunity}}
 
 ---
 
@@ -27,9 +25,9 @@ small enough to do in thirty days alongside a real job.
 
 | Who | What they produce | By when |
 |---|---|---|
-| Merge Combinator | | |
-| | | |
-| | | |
+| Merge Combinator | {{deliverable_mc}} | {{deliverable_mc_date}} |
+| You | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
+| {{deliverable_cp_2_who}} | {{deliverable_cp_2}} | {{deliverable_cp_2_date}} |
 
 *Examples of a real deliverable: a working prototype in front of five users. Ten
 customer conversations with notes. A written read on whether the acquisition path
@@ -43,7 +41,7 @@ something instead of remembering a conversation.
 
 ## 2. The review
 
-**Review date: ____________** (thirty days from the effective date)
+**Review date: {{review_date}}** (thirty days from the effective date)
 
 One meeting. Each party puts their deliverable on the table. We decide one of
 three things:
@@ -108,17 +106,17 @@ Pursue Agreement. Section 4 survives for its full two years.
 
 This is the entire agreement between us on this subject and replaces anything
 discussed before it. Changes must be in writing and signed by both. Governed by
-the laws of ____________.
+the laws of {{governing_state}}.
 
 ---
 
 **Merge Combinator, LLC**
 
-Signature ____________________  Name ____________________  Date __________
+Signature {{mc_signature}}  Name {{mc_signer_name}}  Date {{mc_sign_date}}
 
 **Counterparty**
 
-Signature ____________________  Name ____________________  Date __________
+Signature {{cp_signature}}  Name {{cp_signer_name}}  Date {{cp_sign_date}}
 
 ---
 
@@ -138,6 +136,9 @@ neither stage requires a new legal entity.
 
 ## Merge fields (for Sign)
 
+Every blank in this document is a named token, `{{like_this}}`. The tokens below
+are the complete set. Nothing else in the text changes when a copy is filled in.
+
 The section 1 table is **fixed at three rows** (one Merge, two counterparty) so a
 frozen AcroForm PDF can express it. Unused rows render blank.
 
@@ -150,17 +151,24 @@ frozen AcroForm PDF can express it. Unused rows render blank.
 | `deliverable_mc_date` | date | |
 | `deliverable_cp_1` | text | |
 | `deliverable_cp_1_date` | date | |
+| `deliverable_cp_2_who` | text | Third row. "You" or a named person. Blank if unused |
 | `deliverable_cp_2` | text | Third row, blank if unused |
 | `deliverable_cp_2_date` | date | Blank if unused |
 | `review_date` | date | Effective date plus 30 |
 | `governing_state` | text | |
-| `mc_signer_name` | text | |
-| `cp_signer_name` | text | |
+| `mc_signature` | text | Typed name, filled when Merge countersigns |
+| `mc_signer_name` | text | Filled when Merge countersigns |
+| `mc_sign_date` | date | Filled when Merge countersigns |
+| `cp_signature` | text | Typed name, filled when the counterparty signs |
+| `cp_signer_name` | text | Filled when the counterparty signs |
+| `cp_sign_date` | date | Filled when the counterparty signs |
 
 ## Changelog
 
 - **1.1** (2026-09-18) Term cut from 90 to 30 days. Added section 1 deliverables
   table, section 2 review date, section 3 gate criteria. Added the note that MC's
   vehicle and a fiscal sponsor cover both stages without forming an entity.
+  Blanks written as named merge-field tokens, with the signature and date
+  fields added to the field table. No term changed.
 - **1.0** (2026-09-17) Initial draft. Mutual NDA, no exclusivity, no equity,
   90-day term.
