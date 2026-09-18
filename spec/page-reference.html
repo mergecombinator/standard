@@ -1,0 +1,295 @@
+<title>The Merge Standard</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:wght@400;500;600&family=Roboto+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  --ground:#F6F7F7;--panel:#ECEEEE;--ink:#14191C;--ink-2:#4B575D;--ink-3:#859399;
+  --line:#D5DADB;--line-2:#E4E8E8;--amber:#A96407;--amber-bg:#F7EBD8;--steel:#265F87;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0E1214;--panel:#171D20;--ink:#E7EBEB;--ink-2:#9BA9AF;--ink-3:#69777E;
+  --line:#283236;--line-2:#1E272A;--amber:#E0A040;--amber-bg:#2A2010;--steel:#71ACD4;
+}}
+:root[data-theme="dark"]{
+  --ground:#0E1214;--panel:#171D20;--ink:#E7EBEB;--ink-2:#9BA9AF;--ink-3:#69777E;
+  --line:#283236;--line-2:#1E272A;--amber:#E0A040;--amber-bg:#2A2010;--steel:#71ACD4;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:"Public Sans",-apple-system,BlinkMacSystemFont,sans-serif;font-size:15.5px;line-height:1.62;-webkit-font-smoothing:antialiased;padding-inline:20px;padding-block:0}
+.wrap{max-width:800px;margin:0 auto;padding-block:48px 92px}
+h1,h2,h3{font-family:"Barlow Condensed",Impact,sans-serif;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.6rem,8vw,4.1rem);font-weight:700;line-height:.98;text-transform:uppercase}
+h2{font-size:clamp(1.45rem,4vw,1.95rem);font-weight:600;line-height:1.06;text-transform:uppercase;letter-spacing:.015em}
+h3{font-size:1.15rem;font-weight:600;line-height:1.22}
+p{margin:0}
+a{color:var(--amber)}
+strong{font-weight:600}
+.tag{font-family:"Roboto Mono",monospace;font-size:.68rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--amber)}
+section{display:flex;flex-direction:column;gap:17px;padding-block:38px;border-top:1px solid var(--line);scroll-margin-top:20px}
+
+.head{display:flex;flex-direction:column;gap:17px;padding-bottom:32px}
+.lede{font-size:1.18rem;line-height:1.5;color:var(--ink-2);max-width:56ch}
+.lede strong{color:var(--ink)}
+.stamp{display:flex;flex-wrap:wrap;gap:6px 16px;padding-top:15px;border-top:3px solid var(--ink);font-family:"Roboto Mono",monospace;font-size:.7rem;letter-spacing:.06em;color:var(--ink-3)}
+
+.cta{display:inline-flex;align-items:center;gap:9px;align-self:flex-start;background:var(--ink);color:var(--ground);text-decoration:none;font-family:"Barlow Condensed",sans-serif;font-size:1.12rem;font-weight:600;text-transform:uppercase;letter-spacing:.04em;padding:11px 22px;border:2px solid var(--ink)}
+.cta:hover{background:transparent;color:var(--ink)}
+.cta:focus-visible{outline:2px solid var(--amber);outline-offset:3px}
+.cta .ar{font-family:"Roboto Mono",monospace;font-size:.85rem}
+
+.toc{display:flex;flex-wrap:wrap;gap:7px 18px;font-family:"Roboto Mono",monospace;font-size:.74rem;letter-spacing:.04em}
+.toc a{color:var(--ink-2);text-decoration:none;border-bottom:1px solid var(--line)}
+.toc a:hover{color:var(--amber);border-color:var(--amber)}
+
+ul,ol{margin:0;padding-left:1.15em;display:flex;flex-direction:column;gap:8px}
+li::marker{color:var(--ink-3)}
+ul.plain{list-style:none;padding-left:0;gap:9px}
+ul.plain li{display:grid;grid-template-columns:auto 1fr;gap:11px;align-items:start}
+ul.plain li::before{content:"";width:7px;height:7px;background:var(--amber);margin-top:9px}
+
+.docs{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
+.doc{background:var(--ground);padding:16px 17px;display:grid;grid-template-columns:auto 1fr auto;gap:15px;align-items:baseline}
+.doc .no{font-family:"Roboto Mono",monospace;font-size:.72rem;color:var(--ink-3)}
+.doc .body{display:flex;flex-direction:column;gap:4px}
+.doc .nm{font-family:"Barlow Condensed",sans-serif;font-size:1.22rem;font-weight:600;text-transform:uppercase;letter-spacing:.015em}
+.doc .ds{font-size:.9rem;line-height:1.45;color:var(--ink-2)}
+.doc .mt{font-family:"Roboto Mono",monospace;font-size:.68rem;color:var(--ink-3);white-space:nowrap;letter-spacing:.04em}
+@media (max-width:560px){.doc{grid-template-columns:auto 1fr}.doc .mt{grid-column:2;white-space:normal}}
+
+.roles{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.role{background:var(--ground);padding:13px 15px;display:flex;flex-direction:column;gap:3px}
+.role .n{font-family:"Barlow Condensed",sans-serif;font-size:1.05rem;font-weight:600;text-transform:uppercase;letter-spacing:.02em}
+.role .d{font-size:.86rem;line-height:1.4;color:var(--ink-2)}
+
+.tw{overflow-x:auto;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;min-width:490px;font-size:.88rem}
+th,td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--line-2);vertical-align:top;line-height:1.45}
+th{font-family:"Roboto Mono",monospace;font-size:.65rem;letter-spacing:.11em;text-transform:uppercase;color:var(--ink-3);font-weight:500;background:var(--panel);white-space:nowrap}
+tr:last-child td{border-bottom:none}
+
+pre{background:var(--panel);border:1px solid var(--line);padding:14px 15px;overflow-x:auto;margin:0;font-family:"Roboto Mono",monospace;font-size:.78rem;line-height:1.7;color:var(--ink-2)}
+
+.timeline{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
+.tl{background:var(--ground);padding:13px 16px;display:grid;grid-template-columns:76px 1fr;gap:15px;align-items:baseline}
+.tl .w{font-family:"Roboto Mono",monospace;font-size:.7rem;color:var(--amber);letter-spacing:.05em}
+.tl .e{font-size:.92rem;line-height:1.45}
+@media (max-width:480px){.tl{grid-template-columns:1fr;gap:3px}}
+
+details{border-bottom:1px solid var(--line-2)}
+details[open]{padding-bottom:13px}
+summary{cursor:pointer;padding:12px 0;font-weight:600;font-size:.98rem;line-height:1.4;list-style:none;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:baseline}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:"Roboto Mono",monospace;color:var(--amber);font-size:1.05rem}
+details[open] summary::after{content:"\2212"}
+summary:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+details p{color:var(--ink-2);font-size:.94rem;line-height:1.58}
+details .stack{display:flex;flex-direction:column;gap:9px}
+.faqgrp{display:flex;flex-direction:column}
+
+.note{font-size:.87rem;color:var(--ink-3);line-height:1.55}
+@media (max-width:520px){.wrap{padding-block:32px 60px}section{padding-block:30px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+
+<header class="head">
+  <div class="tag">Version 1.0 &#183; Free &#183; Published, not negotiated</div>
+  <h1>The Merge Standard</h1>
+  <p class="lede">The Merge Standard is a free, published set of agreements for forming ventures in national security. Three short documents carry a partnership from the first conversation to a company. <strong>We are the team you are missing, until we find the team you need. We do not bill for it. We get paid when you do.</strong></p>
+  <a class="cta" href="#start">Start with Explore <span class="ar">&#8594;</span></a>
+  <div class="stamp">
+    <span>MERGE COMBINATOR, LLC</span><span>SDVOSB</span><span>KAILUA, HAWAI&#699;I</span><span>INDO-PACIFIC</span>
+  </div>
+</header>
+
+<section id="why">
+  <div class="tag">Why it exists</div>
+  <h2>Early paper is written for a relationship nobody has yet</h2>
+  <p>Two people who want to build something together open a conversation about splits, scope, and exclusivity before either of them knows what the thing is. Counsel drafting for an undefined relationship writes for maximum protection. The paper comes back one-sided, both parties get defensive, and the work stops while the terms get argued.</p>
+  <p>The Merge Standard splits that negotiation into three stages and settles only what can honestly be settled at each one. Trust comes first, roles come second, equity comes last and only once.</p>
+  <div class="toc">
+    <a href="#docs">Documents</a><a href="#how">How it works</a><a href="#absent">What is not in them</a><a href="#roles">Roles</a><a href="#teaming">Teaming agreements</a><a href="#agents">For agents</a><a href="#faq">FAQ</a><a href="#start">Start</a>
+  </div>
+</section>
+
+<section id="docs">
+  <div class="tag">The documents</div>
+  <h2>Three stages, one equity event</h2>
+
+  <div class="docs">
+    <div class="doc">
+      <div class="no">01</div>
+      <div class="body">
+        <div class="nm">Explore Agreement</div>
+        <div class="ds">Thirty days, one named deliverable per party, one review meeting. Mutual confidentiality so both sides can talk straight.</div>
+      </div>
+      <div class="mt">1 PAGE &#183; 30 DAYS &#183; NO EQUITY</div>
+    </div>
+    <div class="doc">
+      <div class="no">02</div>
+      <div class="body">
+        <div class="nm">Pursue Agreement</div>
+        <div class="ds">Names the opportunity, assigns roles to people, and states what has to be true before a company gets formed.</div>
+      </div>
+      <div class="mt">2 PAGES &#183; 6 MONTHS &#183; NO EQUITY</div>
+    </div>
+    <div class="doc">
+      <div class="no">03</div>
+      <div class="body">
+        <div class="nm">Form Agreement</div>
+        <div class="ds">The company. Default splits by role, vesting, and spin-out terms, all published in advance.</div>
+      </div>
+      <div class="mt">FULL SET &#183; PERMANENT &#183; EQUITY</div>
+    </div>
+    <div class="doc">
+      <div class="no">&#8212;</div>
+      <div class="body">
+        <div class="nm">Role Taxonomy</div>
+        <div class="ds">Six seats with defined responsibilities. Reference document for Pursue and Form.</div>
+      </div>
+      <div class="mt">REFERENCE</div>
+    </div>
+  </div>
+
+  <p class="note">Every document is free to download, use, and adapt, including by people who will never work with Merge. Versions are numbered and dated, and previous versions stay published so you can always read exactly what you signed.</p>
+</section>
+
+<section id="how">
+  <div class="tag">How it works</div>
+  <h2>A pursuit, start to finish</h2>
+  <p>Here is what a twelve month cycle looks like when it works.</p>
+
+  <div class="timeline">
+    <div class="tl"><div class="w">DAY 0</div><div class="e">Both parties sign the Explore Agreement and each names one thing they will produce in thirty days. A prototype in front of five users. Ten customer conversations with notes. A read on whether the acquisition path exists.</div></div>
+    <div class="tl"><div class="w">DAY 1&#8211;30</div><div class="e">The work gets done alongside everyone's real job. Both sides share freely under mutual confidentiality.</div></div>
+    <div class="tl"><div class="w">DAY 30</div><div class="e">One review meeting. Each party puts their deliverable on the table. Go, stop, or one thirty-day extension.</div></div>
+    <div class="tl"><div class="w">MONTH 1&#8211;7</div><div class="e">Pursue. Roles get assigned to named people with hours attached. Merge fills whichever seat is empty and starts recruiting its replacement. Milestones run against the formation triggers.</div></div>
+    <div class="tl"><div class="w">THE TRIGGER</div><div class="e">A contract, grant, or award requires a legal entity to receive it, or a cofounder goes full time and needs equity. Money is what forces incorporation.</div></div>
+    <div class="tl"><div class="w">FORM</div><div class="e">The company forms. Equity issues once, against defaults published the whole time. Merge hands its seat to the permanent holder.</div></div>
+  </div>
+
+  <h3 style="margin-top:8px">The gate out of Explore</h3>
+  <p>Three conditions, all required. Anything less is a stop or a single extension.</p>
+  <ul class="plain">
+    <li>Every party produced what they named. Capacity claimed in a meeting and capacity demonstrated in thirty days are different numbers.</li>
+    <li>Demand exists outside the room. Five people who are not friends of the team described the problem in their own words, or there is a written expression of interest or money on the table.</li>
+    <li>Every core seat has a name against it. An unnamed technical founder is the most common reason a venture stalls here.</li>
+  </ul>
+
+  <h3 style="margin-top:8px">What does not require forming a company</h3>
+  <p>Founders routinely incorporate months earlier than they need to. Merge's SAM registration and CAGE code can carry a federal pursuit through Explore and Pursue, and a fiscal sponsor can receive grant funding and tax-deductible donations. Neither stage requires a new entity. Forming becomes necessary when equity has to be issued, when an investor needs a clean cap table, or when an award lands that Merge should not hold.</p>
+</section>
+
+<section id="absent">
+  <div class="tag">Terms these documents do not contain</div>
+  <h2>What Explore and Pursue leave out</h2>
+  <p>Most of what makes early paper feel hostile is terms that belong at a later stage. Explore and Pursue contain none of the following.</p>
+  <ul class="plain">
+    <li>Non-compete of any kind</li>
+    <li>Non-solicitation of employees or customers</li>
+    <li>Assignment or license of intellectual property</li>
+    <li>Work-for-hire language</li>
+    <li>Broad exclusivity. Pursue restricts one named opportunity, mutually, and nothing else</li>
+    <li>Fees, retainers, billed hours, or reimbursement</li>
+    <li>Any obligation to proceed to the next stage</li>
+    <li>A promise to negotiate future terms in good faith</li>
+  </ul>
+  <p class="note">That last omission is deliberate and legally load-bearing. See the section on teaming agreements.</p>
+</section>
+
+<section id="roles">
+  <div class="tag">Roles</div>
+  <h2>Six seats. Pick one.</h2>
+  <div class="roles">
+    <div class="role"><div class="n">Problem Owner</div><div class="d">The operator who confirms the gap is real. Non-equity by default.</div></div>
+    <div class="role"><div class="n">Technical Founder</div><div class="d">Owns the product and architecture. Builds the thing.</div></div>
+    <div class="role"><div class="n">Venture Lead</div><div class="d">Owns capital, contracts, hiring, and the P&amp;L.</div></div>
+    <div class="role"><div class="n">Studio</div><div class="d">The vehicle, the relationships, the acquisition path, and whichever seat is empty.</div></div>
+    <div class="role"><div class="n">Contributor</div><div class="d">Scoped work with a defined end date.</div></div>
+    <div class="role"><div class="n">Advisor</div><div class="d">Named, a few hours a quarter, opens doors.</div></div>
+  </div>
+  <p>Merge fills an empty seat rather than selling a service. Any seat held on a part-time basis carries three things in writing: a term that ends at formation, a conversion to a position rather than a fee, and a succession obligation that makes recruiting the permanent holder a named deliverable. A seat missing any of the three is a retainer.</p>
+</section>
+
+<section id="teaming">
+  <div class="tag">Comparison</div>
+  <h2>How this relates to a teaming agreement</h2>
+  <p>A teaming agreement under FAR Subpart 9.6 governs two existing companies bidding a single opportunity together. The Merge Standard governs whether a company should exist at all. The two operate at different stages, and a venture formed through Form will sign conventional teaming agreements with primes afterward like anyone else.</p>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th></th><th>Conventional teaming agreement</th><th>The Merge Standard</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Question it answers</strong></td><td>Should we bid this together?</td><td>Should this company exist?</td></tr>
+        <tr><td><strong>Lifespan</strong></td><td>Ends with the bid</td><td>Ends in a company or a clean stop</td></tr>
+        <tr><td><strong>Exclusivity</strong></td><td>Usually broad, usually one-way</td><td>One named opportunity, mutual, at Pursue only</td></tr>
+        <tr><td><strong>Who drafts it</strong></td><td>Whichever party is larger</td><td>Published in advance, same for everyone</td></tr>
+        <tr><td><strong>Future terms</strong></td><td>Negotiated later</td><td>Published before you sign</td></tr>
+        <tr><td><strong>Government disclosure</strong></td><td>Team arrangement disclosed in the offer</td><td>No team arrangement formed, nothing to disclose yet</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Conventional teaming agreements usually promise a future subcontract on terms to be negotiated later. Virginia courts, which govern a large share of government contracting relationships, have repeatedly held those to be unenforceable agreements to agree. The common fix is to front-load an entire subcontract into the teaming agreement, which few parties will do this early in a relationship.</p>
+  <p>The Merge Standard publishes the Form terms in advance instead. There is nothing left to negotiate at the end, so there is no agreement to agree, and you can read the formation terms before you sign the first page.</p>
+  <p class="note">Y Combinator applied this approach to seed financing with the SAFE, and Common Paper has applied it to commercial contracts. The Merge Standard applies it to venture formation in national security.</p>
+</section>
+
+<section id="agents">
+  <div class="tag">For agents</div>
+  <h2>Machine-readable by default</h2>
+  <p>Every document is published as plain markdown at a stable URL. An agent can read the full standard, fill in a draft, and hand it back for signature without anyone downloading a file.</p>
+  <pre>https://mergecombinator.com/standard/llms.txt      index of everything
+https://mergecombinator.com/standard/explore.md    Explore Agreement
+https://mergecombinator.com/standard/pursue.md     Pursue Agreement
+https://mergecombinator.com/standard/form.md       Form Agreement
+https://mergecombinator.com/standard/roles.md      Role Taxonomy
+
+github.com/mergecombinator/standard                source, versions, issues</pre>
+  <p>Proposed changes go through issues in the public repository, so you can see what was asked for and what we decided.</p>
+</section>
+
+<section id="faq">
+  <div class="tag">FAQ</div>
+  <h2>The documents</h2>
+  <div class="faqgrp">
+    <details><summary>Can I use these without working with Merge?</summary><p>Yes. Use them with anyone, for anything, including opportunities we will never touch and ventures that compete with ours. A document only one party can use is not a standard.</p></details>
+    <details><summary>Can I change them?</summary><p>You can do whatever you want with your own copy. We will not sign a modified version. If a term does not work, tell us and we will consider changing it in the next version for everyone.</p></details>
+    <details><summary>My lawyer wants edits. What now?</summary><p>Send us the edits. If they improve the document we will fold them into the next version and you get the improved one. If we disagree, we will say why. Either way the review is cheap, because the documents are one and two pages.</p></details>
+    <details><summary>Why is there no equity until Form?</summary><p>Equity assigned before roles are proven gets renegotiated later, and renegotiating equity ends partnerships. Roles get honest at Pursue because nobody has anything to lose yet by admitting what they can actually commit.</p></details>
+    <details><summary>Why is there no non-compete?</summary><p>A non-compete at the exploration stage restricts someone's livelihood in exchange for a conversation. If the venture is worth being in, people stay because of the equity, not the paper.</p></details>
+    <details><summary>Is Pursue exclusive?</summary><p>Narrowly. Neither party pursues that one named opportunity with a third party without telling the other first. Everything else stays open, including adjacent work. Either party can exit with fourteen days notice, which ends the restriction immediately.</p></details>
+    <details><summary>What if we hit the triggers and someone does not want to form?</summary><p>They say so and it ends. No penalty, no claim, no obligation to explain. Pursue states this in plain terms.</p></details>
+    <details><summary>Is this a teaming agreement?</summary><p>No. It governs whether a company should exist. A teaming agreement governs two existing companies bidding one opportunity. A venture formed this way will still sign conventional teaming agreements later.</p></details>
+    <details><summary>Do I have to disclose this to the government?</summary><p>Explore and Pursue do not create a contractor team arrangement, so FAR 9.603 disclosure does not apply to them. Once you actually team on an offer, normal disclosure rules apply.</p></details>
+    <details><summary>Can a serving government employee sign one of these?</summary><p>A Problem Owner can typically sign an Explore Agreement, which involves no money and no equity. Financial interests are a different question. A current federal employee, including a Guard or Reserve member in a duty status, generally cannot hold a financial interest in a company selling to their own organization under 18 U.S.C. &#167; 208 and 5 CFR 2635. Problem Owner is a non-equity role by default, and anyone who thinks their situation differs should clear it with their ethics counselor before anything is issued.</p></details>
+    <details><summary>What license are the documents under?</summary><p>Creative Commons, free to use and adapt with attribution. The repository carries the exact terms.</p></details>
+    <details><summary>How do versions work?</summary><p>Every document is numbered and dated. Old versions stay published. If you signed 1.0, you can always read 1.0.</p></details>
+  </div>
+
+  <h2 style="margin-top:22px">Working with Merge</h2>
+  <div class="faqgrp">
+    <details><summary>What does Merge actually bring?</summary><p>The contracting vehicle and CAGE code, program office and operator relationships, acquisition experience across OTA, SBIR, and FAR, back office, and a person in whichever seat is currently empty.</p></details>
+    <details><summary>What do you charge?</summary><p>Nothing. No fees, no retainers, no billed hours, at any stage. We take a position at formation and we get paid when the venture does.</p></details>
+    <details><summary>What does Merge take at formation?</summary><p>A position sized by the published default splits for the Studio role. The numbers are in the Form Agreement, which you can read before you sign Explore.</p></details>
+    <details><summary>Will you take a seat in my company?</summary><p>If a seat is empty and we can fill it, yes. Operations, product, or technology, depending on what is missing.</p></details>
+    <details><summary>How long do you hold that seat?</summary><p>Through Pursue. It ends at formation. Recruiting the permanent holder is a written deliverable owned by whoever is sitting in it, which is usually us.</p></details>
+    <details><summary>Do I have to be in Hawai&#699;i or the Indo-Pacific?</summary><p>No. Our relationships and our attention are concentrated there, so that is where we are most useful.</p></details>
+    <details><summary>Do I have to be a defense company?</summary><p>No. We form ventures around operational problems for institutions that are failing the people who depend on them. Most of those are national security. Not all of them.</p></details>
+    <details><summary>I already have a company. Does this apply?</summary><p>Explore and Pursue work between two existing companies deciding whether to build something new together. Form covers the new entity. Your existing company is unaffected.</p></details>
+    <details><summary>How do I start?</summary><p>Download the Explore Agreement, fill in two blanks, and send it back. Ninety days later we both know whether there is anything here.</p></details>
+  </div>
+</section>
+
+<section id="start">
+  <div class="tag">Start</div>
+  <h2>One page, no lawyer, no cost</h2>
+  <p>Fill in two blanks on the Explore Agreement and spend ninety days finding out whether there is anything here. It commits nothing, and either party can walk away without explaining why.</p>
+  <a class="cta" href="#docs">Download the Explore Agreement <span class="ar">&#8594;</span></a>
+</section>
+
+<section>
+  <p class="note">The Merge Standard, version 1.0. Merge Combinator, LLC is a service-disabled veteran-owned small business based in Kailua, Hawai&#699;i. These documents are not legal advice. Have your own counsel read them once before you sign.</p>
+</section>
+
+</div>
