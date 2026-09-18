@@ -1,0 +1,59 @@
+name: Change proposal
+description: Propose a change to a document in the Merge Standard
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        These documents are the same for everyone and are not negotiated deal by deal.
+        A change that is accepted lands in the next version for every party.
+        Do not include confidential details of a deal. This issue is public.
+  - type: dropdown
+    id: document
+    attributes:
+      label: Document
+      options:
+        - Explore Agreement
+        - Pursue Agreement
+        - Form Agreement
+        - Role Taxonomy
+        - Venture Pipeline and Gates
+        - Something else in this repository
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The version in the document's first heading block, for example 1.1
+    validations:
+      required: true
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Section number or heading
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What does not work
+      description: Describe the situation where the current text fails or is unclear.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed text
+      description: The exact wording you propose.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this is better for every party
+      description: A change that helps one side at the expense of the other will not be accepted.
+    validations:
+      required: true
