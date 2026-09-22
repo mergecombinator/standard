@@ -1,6 +1,6 @@
 # Merge Combinator Explore Agreement
 
-**Version 1.1** · Draft, not reviewed by counsel
+**Version 1.2**
 
 *We publish this, we use it on every conversation we start, and we do not
 negotiate it. If something here does not work for you, tell us and we will fix
@@ -165,11 +165,14 @@ frozen AcroForm PDF can express it. Unused rows render blank.
 
 ## Changelog
 
+- **1.2** (2026-09-21) The heading no longer carries a draft label. The text is
+  published and in use; Merge Combinator reviews it internally and every change
+  is a new version here. No term changed.
 - **1.1** (2026-09-18) Term cut from 90 to 30 days. Added section 1 deliverables
   table, section 2 review date, section 3 gate criteria. Added the note that MC's
   vehicle and a fiscal sponsor cover both stages without forming an entity.
   Blanks written as named merge-field tokens, with the signature and date
   fields added to the field table. No term changed. Section 5 rewrapped so a
   line no longer starts with "1.", which markdown rendered as a list.
-- **1.0** (2026-09-17) Initial draft. Mutual NDA, no exclusivity, no equity,
+- **1.0** (2026-09-17) First version. Mutual NDA, no exclusivity, no equity,
   90-day term.

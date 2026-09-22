@@ -1,7 +1,5 @@
 # Name and marks
 
-*Pending counsel review.*
-
 The text in this repository is licensed under CC BY 4.0. The names are not part
 of that license.
 

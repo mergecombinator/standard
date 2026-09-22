@@ -1,6 +1,6 @@
 # Merge Combinator Pursue Agreement
 
-**Version 1.0** · Draft, not reviewed by counsel
+**Version 1.0**
 
 *We publish this, we use it on every pursuit we start, and we do not negotiate
 it. This document contains no equity. Equity appears once, at formation, against
@@ -139,4 +139,4 @@ terms in advance, so there is nothing left to negotiate if we get there.
 
 ## Changelog
 
-- **1.0** (2026-09-17) Initial draft.
+- **1.0** (2026-09-17) First version.

@@ -1,6 +1,6 @@
 # Venture Pipeline and Gates
 
-**Version 1.0** · Draft
+**Version 1.0**
 
 The roadmap from idea to scalable venture, and the evidence required to pass each
 gate.
@@ -91,4 +91,4 @@ on a schedule.
 
 ## Changelog
 
-- **1.0** (2026-09-18) Initial draft.
+- **1.0** (2026-09-18) First version.

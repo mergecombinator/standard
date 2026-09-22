@@ -5,18 +5,19 @@ partnership from the first conversation to a company.
 
 Published by [Merge Combinator](https://mergecombinator.com).
 
-**Status: drafts. None of these documents has been reviewed by counsel.** Each
-document states its own version and status in its first heading block.
+Each document states its version in its first heading block. Merge Combinator
+publishes these documents, uses them on every conversation it starts, and
+reviews them internally. A change is a new version with a changelog entry.
 
 ## Documents
 
 | File | Stage | Length | Term | Equity | Status |
 |---|---|---|---|---|---|
-| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | v1.1 draft |
-| [`pursue-agreement.md`](pursue-agreement.md) | 02 Pursue | 2 pages | 6 months | None | v1.0 draft |
+| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | v1.2 |
+| [`pursue-agreement.md`](pursue-agreement.md) | 02 Pursue | 2 pages | 6 months | None | v1.0 |
 | [`form-agreement.md`](form-agreement.md) | 03 Form | Full set | Permanent | Yes, once | Not written |
-| [`role-taxonomy.md`](role-taxonomy.md) | Reference | | | | v1.0 draft |
-| [`pipeline-and-gates.md`](pipeline-and-gates.md) | Reference | | | | v1.0 draft |
+| [`role-taxonomy.md`](role-taxonomy.md) | Reference | | | | v1.0 |
+| [`pipeline-and-gates.md`](pipeline-and-gates.md) | Reference | | | | v1.0 |
 
 `spec/page-reference.html` is the reference markup for the public page at
 mergecombinator.com/standard. It is a page specification, not a document of the
@@ -98,7 +99,7 @@ attribution.
 
 *These documents are templates provided as is, with no warranty and no
 representation that they fit your situation. They are not legal advice. Have your
-own counsel review anything you sign.* This sentence is pending counsel review.
+own counsel review anything you sign.*
 
 **The name is reserved.** See [TRADEMARK.md](TRADEMARK.md). A modified document
 must not be called The Merge Standard or carry a Merge version header.

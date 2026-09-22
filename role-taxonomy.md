@@ -1,6 +1,6 @@
 # Merge Combinator Role Taxonomy
 
-**Version 1.0** · Draft
+**Version 1.0**
 
 Reference for the Pursue and Form agreements. You pick a role. You do not draft
 one.
@@ -111,4 +111,4 @@ Until those are settled, Pursue assigns roles without assigning numbers.
 
 ## Changelog
 
-- **1.0** (2026-09-17) Initial draft.
+- **1.0** (2026-09-17) First version.
