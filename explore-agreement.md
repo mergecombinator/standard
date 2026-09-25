@@ -1,12 +1,12 @@
 # Explore Agreement
 
-**Version 1.5**
+**Version 1.6**
 
 *Published and maintained as open source by Merge Combinator under CC BY 4.0.
-Merge Combinator uses it to formalize every Explore with partners and
-entrepreneurs. These standard terms remove common early-stage teaming friction
-so an Explore can begin. Suggest a change at
-github.com/mergecombinator/standard/issues/new/choose.*
+Used to clearly document early partnership exploration, including expectations
+and deliverables for partners and entrepreneurs. This agreement can stand
+alone, but it does not limit other agreements or rights. Suggest a change at:
+github.com/mergecombinator/standard.*
 
 ---
 
@@ -160,6 +160,8 @@ express it. The third row is optional and renders blank when unused.
 
 ## Changelog
 
+- **1.6** (2026-09-25) Clarified the open-source purpose and standalone effect
+  of the agreement and moved change suggestions to the repository homepage.
 - **1.5** (2026-09-25) Renamed the document Explore Agreement, removed the
   asymmetric "Merge" and "You" defined terms, added a first-party merge field,
   named both parties consistently throughout, and added the public change

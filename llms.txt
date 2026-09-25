@@ -8,7 +8,7 @@ Every URL below returns plain markdown as `text/plain` with open CORS. No file d
 
 ## Documents
 
-- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Two pages, 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, and the three conditions for moving to Pursue. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the bottom.
+- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Version 1.6. Two pages, 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, and the three conditions for moving to Pursue. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the bottom.
 - [Pursue Agreement](https://mergecombinator.com/standard/pursue.md): Stage 02. Two pages, 6 months, no equity. Names roles from the taxonomy and defines what must be true before a company is formed.
 - [Form Agreement](https://mergecombinator.com/standard/form.md): Stage 03. Not written yet. The file states the three open decisions it is waiting on and what it will contain.
 
