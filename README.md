@@ -13,7 +13,7 @@ reviews them internally. A change is a new version with a changelog entry.
 
 | File | Stage | Length | Term | Equity | Status |
 |---|---|---|---|---|---|
-| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | v1.2 |
+| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | v1.3 |
 | [`pursue-agreement.md`](pursue-agreement.md) | 02 Pursue | 2 pages | 6 months | None | v1.0 |
 | [`form-agreement.md`](form-agreement.md) | 03 Form | Full set | Permanent | Yes, once | Not written |
 | [`role-taxonomy.md`](role-taxonomy.md) | Reference | | | | v1.0 |

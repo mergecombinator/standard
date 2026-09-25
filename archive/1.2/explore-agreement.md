@@ -1,6 +1,6 @@
 # Merge Combinator Explore Agreement
 
-**Version 1.3**
+**Version 1.2**
 
 *We publish this, we use it on every conversation we start, and we do not
 negotiate it. If something here does not work for you, tell us and we will fix
@@ -112,11 +112,11 @@ the laws of {{governing_state}}.
 
 **Merge Combinator, LLC**
 
-Signature {{mc_signature}}  Name {{mc_signer_name}}  Title {{mc_signer_title}}  Date {{mc_sign_date}}
+Signature {{mc_signature}}  Name {{mc_signer_name}}  Date {{mc_sign_date}}
 
 **Counterparty**
 
-Signature {{cp_signature}}  Name {{cp_signer_name}}  Title {{cp_signer_title}}  Date {{cp_sign_date}}
+Signature {{cp_signature}}  Name {{cp_signer_name}}  Date {{cp_sign_date}}
 
 ---
 
@@ -158,17 +158,13 @@ frozen AcroForm PDF can express it. Unused rows render blank.
 | `governing_state` | text | |
 | `mc_signature` | text | Typed name, filled when Merge countersigns |
 | `mc_signer_name` | text | Filled when Merge countersigns |
-| `mc_signer_title` | text | Filled when Merge countersigns |
 | `mc_sign_date` | date | Filled when Merge countersigns |
 | `cp_signature` | text | Typed name, filled when the counterparty signs |
 | `cp_signer_name` | text | Filled when the counterparty signs |
-| `cp_signer_title` | text | Filled when the counterparty signs |
 | `cp_sign_date` | date | Filled when the counterparty signs |
 
 ## Changelog
 
-- **1.3** (2026-09-25) Signature blocks carry each signer's title. No term
-  changed.
 - **1.2** (2026-09-21) The heading no longer carries a draft label. The text is
   published and in use; Merge Combinator reviews it internally and every change
   is a new version here. No term changed.
