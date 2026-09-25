@@ -16,6 +16,8 @@ copied to `archive/1.1/explore-agreement.md` in the same commit that publishes
 
 ## Current contents
 
-Empty. No published version has been superseded yet. Explore Agreement 1.0 was an
-internal draft that was never published. Its changes are recorded in the
-changelog at the bottom of `explore-agreement.md`.
+- `archive/1.2/explore-agreement.md` is the Explore Agreement published on
+  2026-09-21 and superseded by version 1.4 on 2026-09-25.
+
+Explore Agreement 1.0 was an internal draft that was never published. Its
+changes are recorded in the changelog at the bottom of `explore-agreement.md`.

@@ -1,18 +1,18 @@
 # Merge Combinator Explore Agreement
 
-**Version 1.4**
+**Version 1.2**
 
-*This is Merge Combinator's standard Explore Agreement. We publish it, use it
-for every Explore, and do not negotiate it for individual deals. Proposed
-changes go into the next version for everyone.*
+*We publish this, we use it on every conversation we start, and we do not
+negotiate it. If something here does not work for you, tell us and we will fix
+it in the next version for everyone.*
 
 ---
 
-This agreement is between **Merge Combinator, LLC** ("Merge") and
-**{{counterparty_name}}** ("You"), effective **{{effective_date}}**.
+Between **Merge Combinator, LLC** ("Merge") and **{{counterparty_name}}**
+("You"), effective **{{effective_date}}**.
 
-For the next thirty days, Merge and You will decide whether this opportunity is
-worth pursuing together:
+**What we are doing.** We are spending thirty days finding out whether there is a
+venture worth forming around:
 
 > {{opportunity}}
 
@@ -20,34 +20,36 @@ worth pursuing together:
 
 ## 1. What each of us produces
 
-Each party will deliver one concrete result by the date below. Each result should
-be small enough to complete within thirty days alongside normal work.
+Signing this commits each party to produce one thing by a named date. One thing,
+small enough to do in thirty days alongside a real job.
 
-| Party | Deliverable | Due date |
+| Who | What they produce | By when |
 |---|---|---|
 | Merge Combinator | {{deliverable_mc}} | {{deliverable_mc_date}} |
 | You | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
 | {{deliverable_cp_2_who}} | {{deliverable_cp_2}} | {{deliverable_cp_2_date}} |
 
-*A concrete result could be a prototype tested with five users, ten customer
-interviews with notes, a written acquisition-path assessment, three introductions
-followed by completed calls, or a one-page technical assessment.*
+*Examples of a real deliverable: a working prototype in front of five users. Ten
+customer conversations with notes. A written read on whether the acquisition path
+exists. Three warm introductions with the calls actually held. A one-page
+technical assessment of whether the approach works.*
 
-If a party does not deliver, the Explore ends on the review date with no penalty
-or claim. That result is still useful: it tells us not to proceed. The deliverable
-exists so that thirty days from now we are looking at evidence instead of
-remembering a conversation.
+**Producing nothing is an answer.** If a party does not deliver, that is
+information about fit and this ends on the review date. There is no penalty and
+no claim. The deliverable exists so that thirty days from now we are looking at
+something instead of remembering a conversation.
 
 ## 2. The review
 
 **Review date: {{review_date}}** (thirty days from the effective date)
 
-On the review date, we meet once, review the work, and choose one:
+One meeting. Each party puts their deliverable on the table. We decide one of
+three things:
 
-- **Proceed.** Sign the Pursue Agreement and assign roles.
-- **Stop.** Walk away. Nothing is owed.
-- **Extend once.** Agree in writing to thirty more days and name new
-  deliverables. There is no second extension.
+- **Go.** Sign the Pursue Agreement and assign roles.
+- **Stop.** Shake hands and walk. Nothing is owed.
+- **Extend once.** Thirty more days, new deliverables named in writing. One
+  extension only.
 
 ## 3. What moves this to Pursue
 
@@ -58,30 +60,30 @@ extension.
 2. **Demand exists outside this room.** At least five people who are not friends
    of the team described the problem in their own words, or one party has a
    written expression of interest, a letter of intent, or money on the table.
-3. **Every core role needed for Pursue has a named owner.** The person does not
-   have to be permanent, but they must own the role through Pursue.
+3. **Every core seat has a name against it.** Not necessarily the permanent
+   person, but a named human who will hold it through Pursue.
 
 ## 4. Confidentiality, both directions
 
-Each of us may share information that is not public. Each of us will use it only
-to evaluate this opportunity. We will protect it with at least the care we use
-for our own information and share it only with people on our side who need it and
+Each of us may share information that is not public. Each of us will use that
+information only to evaluate this opportunity, protect it with at least the care
+we use for our own, and share it only with people on our own side who need it and
 are held to these same terms. This obligation lasts two years from the effective
 date.
 
-It does not apply to information already public through no fault of the receiving
-party, already held by the receiving party, developed independently, or received
-from a third party with no duty of confidence. It also does not apply when a law,
-regulation, or court requires disclosure. When legally permitted, the party
-required to disclose will notify the other first.
+It does not apply to information that is already public through no fault of the
+receiving party, that the receiving party already had, that the receiving party
+develops independently, that arrives from a third party with no duty of
+confidence, or that a law, regulation, or court requires be disclosed. If
+disclosure is legally required, the disclosing party will give the other notice
+first where it is permitted to do so.
 
 ## 5. Nobody gains anything new
 
 Each of us keeps everything we brought, and keeps what we produce under
 section 1. Neither party is assigning, licensing, or transferring any
 intellectual property, data, or rights under this agreement. If we decide to
-create something jointly, we will agree ownership and permitted use in writing
-before creating it.
+create something jointly, we will paper that before we create it.
 
 ## 6. No exclusivity
 
@@ -100,7 +102,7 @@ without explanation and without penalty.
 This ends on the review date unless both parties sign an extension or move to a
 Pursue Agreement. Section 4 survives for its full two years.
 
-## 9. Entire agreement
+## 9. That is the whole thing
 
 This is the entire agreement between us on this subject and replaces anything
 discussed before it. Changes must be in writing and signed by both. Governed by
@@ -110,15 +112,25 @@ the laws of {{governing_state}}.
 
 **Merge Combinator, LLC**
 
-Name {{mc_signer_name}}  Signature {{mc_signature}}
-
-Title {{mc_signer_title}}  Date {{mc_sign_date}}
+Signature {{mc_signature}}  Name {{mc_signer_name}}  Date {{mc_sign_date}}
 
 **Counterparty**
 
-Name {{cp_signer_name}}  Signature {{cp_signature}}
+Signature {{cp_signature}}  Name {{cp_signer_name}}  Date {{cp_sign_date}}
 
-Title {{cp_signer_title}}  Date {{cp_sign_date}}
+---
+
+### What comes next
+
+**Pursue** runs six months, names roles from the published taxonomy, and defines
+what has to be true before a company gets formed. It contains no equity.
+
+**Form** is the company. Equity issues once, against default splits published in
+advance.
+
+Merge Combinator's SAM registration and CAGE code can carry a federal pursuit
+during Explore and Pursue, and a fiscal sponsor can receive grant funding, so
+neither stage requires a new legal entity.
 
 ---
 
@@ -146,22 +158,13 @@ frozen AcroForm PDF can express it. Unused rows render blank.
 | `governing_state` | text | |
 | `mc_signature` | text | Typed name, filled when Merge countersigns |
 | `mc_signer_name` | text | Filled when Merge countersigns |
-| `mc_signer_title` | text | Filled when Merge countersigns |
 | `mc_sign_date` | date | Filled when Merge countersigns |
 | `cp_signature` | text | Typed name, filled when the counterparty signs |
 | `cp_signer_name` | text | Filled when the counterparty signs |
-| `cp_signer_title` | text | Filled when the counterparty signs |
 | `cp_sign_date` | date | Filled when the counterparty signs |
 
 ## Changelog
 
-- **1.4** (2026-09-25) Clarified the thirty-day bargain, deliverable standard,
-  review choices, core-role gate, confidentiality exceptions, and joint-work
-  language. Renamed the table columns. Added signer titles and stacked each
-  signature block into two rows. Moved the explanatory material about Pursue,
-  Form, federal pursuits, and fiscal sponsorship out of the agreement.
-- **1.3** (2026-09-25) Staging-only iteration that added signer titles to the
-  Sign template. It was never published as the current standard.
 - **1.2** (2026-09-21) The heading no longer carries a draft label. The text is
   published and in use; Merge Combinator reviews it internally and every change
   is a new version here. No term changed.
