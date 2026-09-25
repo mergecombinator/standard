@@ -1,15 +1,14 @@
 # Merge Combinator Explore Agreement
 
-**Version 1.3**
+**Version 1.2**
 
-**Status: internal draft — not yet live**
-
-*Pre-release working draft. Merge Combinator may revise it freely before
-launch. It is not yet offered as a live agreement.*
+*We publish this, we use it on every conversation we start, and we do not
+negotiate it. If something here does not work for you, tell us and we will fix
+it in the next version for everyone.*
 
 ---
 
-Between **Merge Combinator, LLC** and **{{counterparty_name}}**
+Between **Merge Combinator, LLC** ("Merge") and **{{counterparty_name}}**
 ("You"), effective **{{effective_date}}**.
 
 **What we are doing.** We are spending thirty days finding out whether there is a
@@ -113,11 +112,11 @@ the laws of {{governing_state}}.
 
 **Merge Combinator, LLC**
 
-Signature {{mc_signature}}  Name {{mc_signer_name}}  Title {{mc_signer_title}}  Date {{mc_sign_date}}
+Signature {{mc_signature}}  Name {{mc_signer_name}}  Date {{mc_sign_date}}
 
 **Counterparty**
 
-Signature {{cp_signature}}  Name {{cp_signer_name}}  Title {{cp_signer_title}}  Date {{cp_sign_date}}
+Signature {{cp_signature}}  Name {{cp_signer_name}}  Date {{cp_sign_date}}
 
 ---
 
@@ -140,7 +139,7 @@ neither stage requires a new legal entity.
 Every blank in this document is a named token, `{{like_this}}`. The tokens below
 are the complete set. Nothing else in the text changes when a copy is filled in.
 
-The section 1 table is **fixed at three rows** (one Merge Combinator, two counterparty) so a
+The section 1 table is **fixed at three rows** (one Merge, two counterparty) so a
 frozen AcroForm PDF can express it. Unused rows render blank.
 
 | Field | Type | Notes |
@@ -157,21 +156,18 @@ frozen AcroForm PDF can express it. Unused rows render blank.
 | `deliverable_cp_2_date` | date | Blank if unused |
 | `review_date` | date | Effective date plus 30 |
 | `governing_state` | text | |
-| `mc_signature` | text | Typed name, filled when Merge Combinator countersigns |
-| `mc_signer_name` | text | Filled when Merge Combinator countersigns |
-| `mc_signer_title` | text | Filled when Merge Combinator countersigns |
-| `mc_sign_date` | date | Filled when Merge Combinator countersigns |
+| `mc_signature` | text | Typed name, filled when Merge countersigns |
+| `mc_signer_name` | text | Filled when Merge countersigns |
+| `mc_sign_date` | date | Filled when Merge countersigns |
 | `cp_signature` | text | Typed name, filled when the counterparty signs |
 | `cp_signer_name` | text | Filled when the counterparty signs |
-| `cp_signer_title` | text | Filled when the counterparty signs |
 | `cp_sign_date` | date | Filled when the counterparty signs |
 
 ## Changelog
 
-- **1.3** (2026-09-25) Signature blocks carry each signer's title. No term
-  changed. The document remains a pre-release working draft; numbering is for
-  internal tracking only.
-- **1.2** (2026-09-21) Internal working revision. No term changed.
+- **1.2** (2026-09-21) The heading no longer carries a draft label. The text is
+  published and in use; Merge Combinator reviews it internally and every change
+  is a new version here. No term changed.
 - **1.1** (2026-09-18) Term cut from 90 to 30 days. Added section 1 deliverables
   table, section 2 review date, section 3 gate criteria. Added the note that MC's
   vehicle and a fiscal sponsor cover both stages without forming an entity.

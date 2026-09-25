@@ -1,20 +1,21 @@
 # The Merge Standard
 
-Free, published agreements for forming ventures. Three documents carry a
+Working drafts of agreements for forming ventures. Three documents carry a
 partnership from the first conversation to a company.
 
-Published by [Merge Combinator](https://mergecombinator.com).
+Prepared by [Merge Combinator](https://mergecombinator.com).
 
-Each document states its version in its first heading block. Merge Combinator
-publishes these documents, uses them on every conversation it starts, and
-reviews them internally. A change is a new version with a changelog entry.
+**Pre-release:** these documents are not live yet. Draft numbers and changelogs
+are internal tracking only; Merge Combinator may revise the text freely before
+launch. The release and archival rules below take effect when the standard
+launches.
 
 ## Documents
 
 | File | Stage | Length | Term | Equity | Status |
 |---|---|---|---|---|---|
-| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | v1.2 |
-| [`pursue-agreement.md`](pursue-agreement.md) | 02 Pursue | 2 pages | 6 months | None | v1.0 |
+| [`explore-agreement.md`](explore-agreement.md) | 01 Explore | 1 page | 30 days | None | Internal draft 1.3 |
+| [`pursue-agreement.md`](pursue-agreement.md) | 02 Pursue | 2 pages | 6 months | None | Internal draft 1.0 |
 | [`form-agreement.md`](form-agreement.md) | 03 Form | Full set | Permanent | Yes, once | Not written |
 | [`role-taxonomy.md`](role-taxonomy.md) | Reference | | | | v1.0 |
 | [`pipeline-and-gates.md`](pipeline-and-gates.md) | Reference | | | | v1.0 |
@@ -37,7 +38,7 @@ https://mergecombinator.com/standard/roles.md      Role Taxonomy
 https://mergecombinator.com/standard/pipeline.md   Venture Pipeline and Gates
 ```
 
-This repository is the source. The site serves a pinned release of it.
+This repository is the working source. Stable public releases are not active yet.
 
 ## Why it exists
 
@@ -53,7 +54,7 @@ and only once.
 ## The four rules that make it a standard
 
 1. **Published and free.** Anyone may use these, including people who will never
-   work with Merge and people who compete with us. A document only one party can
+   work with Merge Combinator and people who compete with us. A document only one party can
    use is not a standard.
 2. **We use them ourselves**, on every conversation we start.
 3. **We do not negotiate them.** Proposed changes go through issues and land in
@@ -72,7 +73,7 @@ everyone.
 
 We do not sign modified copies.
 
-## Versioning
+## Versioning after launch
 
 - `MAJOR.MINOR` per document. Minor for clarifications and added structure. Major
   when a term changes meaning for a party who already signed.
@@ -102,4 +103,4 @@ representation that they fit your situation. They are not legal advice. Have you
 own counsel review anything you sign.*
 
 **The name is reserved.** See [TRADEMARK.md](TRADEMARK.md). A modified document
-must not be called The Merge Standard or carry a Merge version header.
+must not be called The Merge Standard or carry a Merge Combinator version header.
