@@ -1,35 +1,32 @@
-# Explore Agreement
+# Merge Combinator Explore Agreement
 
-**Version 1.5**
+**Version 1.4**
 
-*Published and maintained as open source by Merge Combinator under CC BY 4.0.
-Merge Combinator uses it to formalize every Explore with partners and
-entrepreneurs. These standard terms remove common early-stage teaming friction
-so an Explore can begin. Suggest a change at
-github.com/mergecombinator/standard/issues/new/choose.*
+*This is Merge Combinator's standard Explore Agreement. We publish it, use it
+for every Explore, and do not negotiate it for individual deals. Proposed
+changes go into the next version for everyone.*
 
 ---
 
-This agreement is between **{{first_party_name}}** (the first party) and
-**{{counterparty_name}}** (the second party), effective
-**{{effective_date}}**.
+This agreement is between **Merge Combinator, LLC** ("Merge") and
+**{{counterparty_name}}** ("You"), effective **{{effective_date}}**.
 
-For thirty days after the effective date, the parties will evaluate whether to
-pursue this opportunity together:
+For the next thirty days, Merge and You will decide whether this opportunity is
+worth pursuing together:
 
 > {{opportunity}}
 
 ---
 
-## 1. What each party produces
+## 1. What each of us produces
 
 Each party will deliver one concrete result by the date below. Each result should
 be small enough to complete within thirty days alongside normal work.
 
 | Party | Deliverable | Due date |
 |---|---|---|
-| {{first_party_name}} | {{deliverable_mc}} | {{deliverable_mc_date}} |
-| {{counterparty_name}} | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
+| Merge Combinator | {{deliverable_mc}} | {{deliverable_mc_date}} |
+| You | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
 | {{deliverable_cp_2_who}} | {{deliverable_cp_2}} | {{deliverable_cp_2_date}} |
 
 *A concrete result could be a prototype tested with five users, ten customer
@@ -37,15 +34,15 @@ interviews with notes, a written acquisition-path assessment, three introduction
 followed by completed calls, or a one-page technical assessment.*
 
 If a party does not deliver, the Explore ends on the review date with no penalty
-or claim. That result is still useful because it tells the parties not to
-proceed. The deliverable exists so that, thirty days later, the parties can
-review evidence instead of remembering a conversation.
+or claim. That result is still useful: it tells us not to proceed. The deliverable
+exists so that thirty days from now we are looking at evidence instead of
+remembering a conversation.
 
 ## 2. The review
 
 **Review date: {{review_date}}** (thirty days from the effective date)
 
-On the review date, the parties meet once, review the work, and choose one:
+On the review date, we meet once, review the work, and choose one:
 
 - **Proceed.** Sign the Pursue Agreement and assign roles.
 - **Stop.** Walk away. Nothing is owed.
@@ -66,11 +63,11 @@ extension.
 
 ## 4. Confidentiality, both directions
 
-Each party may share information that is not public. The receiving party will
-use it only to evaluate this opportunity, protect it with at least the care used
-for its own confidential information, and share it only with people who need it
-and are bound by these same terms. This obligation lasts two years from the
-effective date.
+Each of us may share information that is not public. Each of us will use it only
+to evaluate this opportunity. We will protect it with at least the care we use
+for our own information and share it only with people on our side who need it and
+are held to these same terms. This obligation lasts two years from the effective
+date.
 
 It does not apply to information already public through no fault of the receiving
 party, already held by the receiving party, developed independently, or received
@@ -78,47 +75,46 @@ from a third party with no duty of confidence. It also does not apply when a law
 regulation, or court requires disclosure. When legally permitted, the party
 required to disclose will notify the other first.
 
-## 5. What each party keeps
+## 5. Nobody gains anything new
 
-Each party keeps everything it brought and everything it produces under
-section 1. Neither party assigns, licenses, or transfers any intellectual
-property, data, or other rights under this agreement. If the parties decide to
-create something jointly, they will agree in writing on ownership and permitted
-use before creating it.
+Each of us keeps everything we brought, and keeps what we produce under
+section 1. Neither party is assigning, licensing, or transferring any
+intellectual property, data, or rights under this agreement. If we decide to
+create something jointly, we will agree ownership and permitted use in writing
+before creating it.
 
 ## 6. No exclusivity
 
-Each party remains free to talk to anyone, work on anything, and pursue this
-opportunity separately or with others. Neither party restricts whom the other
-hires, works with, or sells to.
+Both of us stay free to talk to anyone, work on anything, and pursue this same
+opportunity separately or with others. Neither of us is restricting who the other
+hires, partners with, or sells to.
 
 ## 7. No money, no equity, no obligation to continue
 
-Neither party owes the other a fee, a share, or reimbursement. Each party bears
-its own costs. Either party may end this agreement before the review date, for
-any reason, without explanation or penalty.
+Neither party owes the other a fee, a share, or a reimbursement. Each party bears
+its own costs. Either of us can end this before the review date, for any reason,
+without explanation and without penalty.
 
 ## 8. It expires on its own
 
-This agreement ends on the review date unless both parties sign an extension or
-a Pursue Agreement. Section 4 survives for its full two years.
+This ends on the review date unless both parties sign an extension or move to a
+Pursue Agreement. Section 4 survives for its full two years.
 
 ## 9. Entire agreement
 
-This is the entire agreement between the parties on this subject and replaces
-all prior discussions and agreements about it. Any change must be in writing
-and signed by both parties. The laws of {{governing_state}} govern this
-agreement.
+This is the entire agreement between us on this subject and replaces anything
+discussed before it. Changes must be in writing and signed by both. Governed by
+the laws of {{governing_state}}.
 
 ---
 
-**{{first_party_name}}**
+**Merge Combinator, LLC**
 
 Name {{mc_signer_name}}  Signature {{mc_signature}}
 
 Title {{mc_signer_title}}  Date {{mc_sign_date}}
 
-**{{counterparty_name}}**
+**Counterparty**
 
 Name {{cp_signer_name}}  Signature {{cp_signature}}
 
@@ -131,20 +127,19 @@ Title {{cp_signer_title}}  Date {{cp_sign_date}}
 Every blank in this document is a named token, `{{like_this}}`. The tokens below
 are the complete set. Nothing else in the text changes when a copy is filled in.
 
-The section 1 table is **fixed at three rows** so a frozen AcroForm PDF can
-express it. The third row is optional and renders blank when unused.
+The section 1 table is **fixed at three rows** (one Merge, two counterparty) so a
+frozen AcroForm PDF can express it. Unused rows render blank.
 
 | Field | Type | Notes |
 |---|---|---|
-| `first_party_name` | text | Legal name of the first party. Sign defaults this to Merge Combinator, LLC |
-| `counterparty_name` | text | Legal name of the second party |
+| `counterparty_name` | text | Legal entity or individual |
 | `effective_date` | date | |
 | `opportunity` | long text | Two lines |
 | `deliverable_mc` | text | |
 | `deliverable_mc_date` | date | |
 | `deliverable_cp_1` | text | |
 | `deliverable_cp_1_date` | date | |
-| `deliverable_cp_2_who` | text | Responsible party for the optional third row. Blank if unused |
+| `deliverable_cp_2_who` | text | Third row. "You" or a named person. Blank if unused |
 | `deliverable_cp_2` | text | Third row, blank if unused |
 | `deliverable_cp_2_date` | date | Blank if unused |
 | `review_date` | date | Effective date plus 30 |
@@ -160,10 +155,6 @@ express it. The third row is optional and renders blank when unused.
 
 ## Changelog
 
-- **1.5** (2026-09-25) Renamed the document Explore Agreement, removed the
-  asymmetric "Merge" and "You" defined terms, added a first-party merge field,
-  named both parties consistently throughout, and added the public change
-  proposal path.
 - **1.4** (2026-09-25) Clarified the thirty-day bargain, deliverable standard,
   review choices, core-role gate, confidentiality exceptions, and joint-work
   language. Renamed the table columns. Added signer titles and stacked each

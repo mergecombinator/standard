@@ -16,6 +16,8 @@ copied to `archive/1.1/explore-agreement.md` in the same commit that publishes
 
 ## Current contents
 
+- `archive/1.4/explore-agreement.md` is the Explore Agreement published on
+  2026-09-25 and superseded by version 1.5 on 2026-09-25.
 - `archive/1.2/explore-agreement.md` is the Explore Agreement published on
   2026-09-21 and superseded by version 1.4 on 2026-09-25.
 
