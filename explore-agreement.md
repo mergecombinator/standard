@@ -28,8 +28,8 @@ be small enough to complete within thirty days alongside normal work.
 
 | Party | Deliverable | Due date |
 |---|---|---|
-| {{first_party_name}} | {{deliverable_mc}} | {{deliverable_mc_date}} |
-| {{counterparty_name}} | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
+| First party | {{deliverable_mc}} | {{deliverable_mc_date}} |
+| Second party | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
 | {{deliverable_cp_2_who}} | {{deliverable_cp_2}} | {{deliverable_cp_2_date}} |
 
 *A concrete result could be a prototype tested with five users, ten customer
@@ -112,13 +112,13 @@ agreement.
 
 ---
 
-**{{first_party_name}}**
+**First party**
 
 Name {{mc_signer_name}}  Signature {{mc_signature}}
 
 Title {{mc_signer_title}}  Date {{mc_sign_date}}
 
-**{{counterparty_name}}**
+**Second party**
 
 Name {{cp_signer_name}}  Signature {{cp_signature}}
 
