@@ -27,7 +27,7 @@ documents, or a service:
 
 - Call a modified document The Merge Standard, or give it one of the names
   above.
-- Keep the Merge version header on a modified document. If you change the text,
+- Keep the Merge Combinator version header on a modified document. If you change the text,
   remove the header and the name, and say what it was adapted from.
 - Suggest that Merge Combinator wrote, reviewed, or endorses your modified
   version.
