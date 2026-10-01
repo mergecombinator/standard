@@ -9,19 +9,12 @@ Superseded versions live here and are never deleted. If a party signed version
 archive/<document-version>/<file>
 ```
 
-For example, when the Explore Agreement moves from 1.1 to 1.2, the 1.1 text is
-copied to `archive/1.1/explore-agreement.md` in the same commit that publishes
-1.2. The same path is served at
-`https://mergecombinator.com/standard/archive/1.1/explore-agreement.md`.
+For example, when the Explore Agreement moves from 1.0 to 1.1, the 1.0 text is
+copied to `archive/1.0/explore-agreement.md` in the same commit that publishes
+1.1. The same path is served at
+`https://mergecombinator.com/standard/archive/1.0/explore-agreement.md`.
 
 ## Current contents
 
-- `archive/1.4/explore-agreement.md` is the Explore Agreement published on
-  2026-09-25 and superseded by version 1.5 on 2026-09-25.
-- Version 1.5 is superseded by version 1.6 on 2026-09-25 and remains in the
-  repository history and Sign's immutable template bundle.
-- `archive/1.2/explore-agreement.md` is the Explore Agreement published on
-  2026-09-21 and superseded by version 1.4 on 2026-09-25.
-
-Explore Agreement 1.0 was an internal draft that was never published. Its
-changes are recorded in the changelog at the bottom of `explore-agreement.md`.
+Empty. Version 1.0 of each document, published on 2026-10-01, is its first
+published version. Drafts before that date are in the repository history only.

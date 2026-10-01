@@ -13,13 +13,13 @@ documents, or a service:
 - Merge Combinator Explore Agreement, Merge Combinator Pursue Agreement, Merge
   Combinator Form Agreement
 - Any of the above followed by a version number, such as "Merge Explore
-  Agreement v1.1"
+  Agreement v1.0"
 
 ## What you may do
 
 - Use an unmodified document under its name and version. That is what the name
   is for.
-- Say that your document is "based on the Merge Explore Agreement v1.1" or
+- Say that your document is "based on the Merge Explore Agreement v1.0" or
   "adapted from The Merge Standard". That is accurate attribution.
 - Link to this repository and to the published URLs.
 

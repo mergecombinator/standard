@@ -1,6 +1,6 @@
 # The Merge Standard
 
-> Free, published agreements for forming ventures, from Merge Combinator. Three documents carry a partnership from first conversation to company: Explore (30 days, mutual confidentiality plus one named deliverable per party), Pursue (6 months, roles and formation triggers, no equity), and Form (the company, equity once, against splits published in advance). The documents are identical for everyone and are not negotiated. Changes are proposed in public issues and land in the next version.
+> Free, published agreements for forming ventures, from Merge Combinator. Three documents carry a partnership from first conversation to company: Explore (30 days, mutual confidentiality plus one named deliverable per party), Pursue (6 months, roles and formation triggers, no equity), and Form (the company, equity once, against splits published in advance; not yet published). The documents are identical for everyone and are not negotiated. Changes are proposed in public issues and land in the next version.
 
 Each document carries its version in its first heading block. Merge Combinator publishes these documents, uses them, and reviews them internally; a change is a new version. They are templates provided as is, with no warranty, and are not legal advice.
 
@@ -8,9 +8,9 @@ Every URL below returns plain markdown as `text/plain` with open CORS. No file d
 
 ## Documents
 
-- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Version 1.6. Two pages, 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, and the three conditions for moving to Pursue. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the bottom.
-- [Pursue Agreement](https://mergecombinator.com/standard/pursue.md): Stage 02. Two pages, 6 months, no equity. Names roles from the taxonomy and defines what must be true before a company is formed.
-- [Form Agreement](https://mergecombinator.com/standard/form.md): Stage 03. Not written yet. The file states the three open decisions it is waiting on and what it will contain.
+- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Version 1.0. Two pages, 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, and the three conditions for moving to Pursue. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the bottom.
+- [Pursue Agreement](https://mergecombinator.com/standard/pursue.md): Stage 02. Version 1.0. Two pages, 6 months, no equity. Names roles from the taxonomy and defines what must be true before a company is formed.
+- [Form Agreement](https://mergecombinator.com/standard/form.md): Stage 03. Not yet published. The file states what is decided (money is agreed separately, one party is the lead, the company is formed to take institutional rounds) and what it will contain.
 
 ## Reference
 
