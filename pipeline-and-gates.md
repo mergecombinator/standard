@@ -91,4 +91,4 @@ on a schedule.
 
 ## Changelog
 
-- **1.0** (2026-09-18) First version.
+- **1.0** (2026-10-01) First published version.

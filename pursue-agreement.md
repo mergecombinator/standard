@@ -100,10 +100,14 @@ parties sign an extension or move to a Form Agreement.
 
 ## 9. What formation looks like
 
-If we form, we use the **Merge Form Agreement** and its published default splits
-by role. Those numbers are published in advance, which means they are not
-something we negotiate at the end of this process. You can read them today,
-before you sign this.
+If we form, we intend to use the **Merge Form Agreement** and the default terms
+by role it publishes. The Form Agreement is not yet published. When it is, it
+will be at github.com/mergecombinator/standard, and its terms will be set before
+anyone reaches formation rather than negotiated at the end of this process.
+
+An investment of money in the new company, by Merge or by anyone else, is not
+part of this agreement or of the Form Agreement. It is agreed separately, on its
+own terms.
 
 This section is a statement of what we intend to use. Nothing here obligates any
 party to enter into any future agreement.
@@ -134,9 +138,11 @@ government contracting relationships, have repeatedly held those to be
 unenforceable agreements to agree. The usual fix is to front-load an entire
 subcontract into the teaming agreement, which nobody wants to do this early.
 
-We take the other route. We do not promise to agree later. We publish the Form
-terms in advance, so there is nothing left to negotiate if we get there.
+We take the other route. We do not promise to agree later. The Form terms are
+published before anyone reaches formation, so there is nothing left to negotiate
+if we get there. Until the Form Agreement is published, section 9 states intent
+only and binds no one.
 
 ## Changelog
 
-- **1.0** (2026-09-17) First version.
+- **1.0** (2026-10-01) First published version.

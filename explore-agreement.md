@@ -1,6 +1,6 @@
 # Explore Agreement
 
-**Version 1.6**
+**Version 1.0**
 
 *Published and maintained as open source by Merge Combinator under CC BY 4.0.
 Used to clearly document early partnership exploration, including expectations
@@ -160,27 +160,5 @@ express it. The third row is optional and renders blank when unused.
 
 ## Changelog
 
-- **1.6** (2026-09-25) Clarified the open-source purpose and standalone effect
-  of the agreement and moved change suggestions to the repository homepage.
-- **1.5** (2026-09-25) Renamed the document Explore Agreement, removed the
-  asymmetric "Merge" and "You" defined terms, added a first-party merge field,
-  named both parties consistently throughout, and added the public change
-  proposal path.
-- **1.4** (2026-09-25) Clarified the thirty-day bargain, deliverable standard,
-  review choices, core-role gate, confidentiality exceptions, and joint-work
-  language. Renamed the table columns. Added signer titles and stacked each
-  signature block into two rows. Moved the explanatory material about Pursue,
-  Form, federal pursuits, and fiscal sponsorship out of the agreement.
-- **1.3** (2026-09-25) Staging-only iteration that added signer titles to the
-  Sign template. It was never published as the current standard.
-- **1.2** (2026-09-21) The heading no longer carries a draft label. The text is
-  published and in use; Merge Combinator reviews it internally and every change
-  is a new version here. No term changed.
-- **1.1** (2026-09-18) Term cut from 90 to 30 days. Added section 1 deliverables
-  table, section 2 review date, section 3 gate criteria. Added the note that MC's
-  vehicle and a fiscal sponsor cover both stages without forming an entity.
-  Blanks written as named merge-field tokens, with the signature and date
-  fields added to the field table. No term changed. Section 5 rewrapped so a
-  line no longer starts with "1.", which markdown rendered as a list.
-- **1.0** (2026-09-17) First version. Mutual NDA, no exclusivity, no equity,
-  90-day term.
+- **1.0** (2026-10-01) First published version. Drafts before this date
+  are in the repository history.

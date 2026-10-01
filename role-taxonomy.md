@@ -98,17 +98,10 @@ This protects them more than it protects the venture.
 
 ## Splits
 
-Default splits by role belong in the Form Agreement and are published once, then
-not renegotiated per deal. Three variables drive the numbers and they are PG's
-call:
-
-1. Does Merge put capital in, or only the vehicle and the relationships?
-2. Is the Technical Founder full-time from day one, or converting later?
-3. Does the venture expect an institutional round, which sets how much room the
-   cap table needs?
-
-Until those are settled, Pursue assigns roles without assigning numbers.
+Default splits by role belong in the Form Agreement. They are published once and
+then not renegotiated per deal. The Form Agreement is not yet published. Until it
+is, Pursue assigns roles without assigning numbers.
 
 ## Changelog
 
-- **1.0** (2026-09-17) First version.
+- **1.0** (2026-10-01) First published version.
