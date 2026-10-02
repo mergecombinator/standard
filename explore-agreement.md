@@ -114,15 +114,15 @@ agreement.
 
 **First party**
 
-Name {{mc_signer_name}}  Signature {{mc_signature}}
+Name {{mc_signer_name}}  Title {{mc_signer_title}}
 
-Title {{mc_signer_title}}  Date {{mc_sign_date}}
+Signature {{mc_signature}}  Date {{mc_sign_date}}
 
 **Second party**
 
-Name {{cp_signer_name}}  Signature {{cp_signature}}
+Name {{cp_signer_name}}  Title {{cp_signer_title}}
 
-Title {{cp_signer_title}}  Date {{cp_sign_date}}
+Signature {{cp_signature}}  Date {{cp_sign_date}}
 
 ---
 
@@ -162,3 +162,5 @@ express it. The third row is optional and renders blank when unused.
 
 - **1.0** (2026-10-01) First published version. Drafts before this date
   are in the repository history.
+- **1.0** (2026-10-02) Signature block reordered: Name and Title on the
+  first line, Signature and Date on the second. No change to terms.
