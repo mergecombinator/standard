@@ -112,13 +112,13 @@ agreement.
 
 ---
 
-**First party**
+**{{signature_first_party}}**
 
 Name {{mc_signer_name}}  Title {{mc_signer_title}}
 
 Signature {{mc_signature}}  Date {{mc_sign_date}}
 
-**Second party**
+**{{signature_second_party}}**
 
 Name {{cp_signer_name}}  Title {{cp_signer_title}}
 
@@ -151,6 +151,8 @@ express it. The third row is optional and renders blank when unused.
 | `deliverable_cp_2_date` | date | Blank if unused |
 | `review_date` | date | Effective date plus 30 |
 | `governing_state` | text | |
+| `signature_first_party` | text | Heads the first party's signature lines. The first party's legal name, as in `first_party_name` |
+| `signature_second_party` | text | Heads the second party's signature lines. The second party's legal name, as in `counterparty_name` |
 | `mc_signature` | text | Typed name, filled when Merge countersigns |
 | `mc_signer_name` | text | Filled when Merge countersigns |
 | `mc_signer_title` | text | Filled when Merge countersigns |
@@ -167,4 +169,6 @@ express it. The third row is optional and renders blank when unused.
 - **1.0** (2026-10-02) Signature block reordered: Name and Title on the
   first line, Signature and Date on the second. No change to terms.
 - **1.0** (2026-10-02) The section 1 table names each party by its legal
+  name instead of "First party" and "Second party". No change to terms.
+- **1.0** (2026-10-02) Each signature block is headed by the party's legal
   name instead of "First party" and "Second party". No change to terms.
