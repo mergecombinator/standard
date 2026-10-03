@@ -28,8 +28,8 @@ be small enough to complete within thirty days alongside normal work.
 
 | Party | Deliverable | Due date |
 |---|---|---|
-| First party | {{deliverable_mc}} | {{deliverable_mc_date}} |
-| Second party | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
+| {{deliverable_mc_who}} | {{deliverable_mc}} | {{deliverable_mc_date}} |
+| {{deliverable_cp_1_who}} | {{deliverable_cp_1}} | {{deliverable_cp_1_date}} |
 | {{deliverable_cp_2_who}} | {{deliverable_cp_2}} | {{deliverable_cp_2_date}} |
 
 *A concrete result could be a prototype tested with five users, ten customer
@@ -140,12 +140,14 @@ express it. The third row is optional and renders blank when unused.
 | `counterparty_name` | text | Legal name of the second party |
 | `effective_date` | date | |
 | `opportunity` | long text | Two lines |
-| `deliverable_mc` | text | |
+| `deliverable_mc_who` | text | The first party's legal name, as in `first_party_name` |
+| `deliverable_mc` | text | Up to three lines |
 | `deliverable_mc_date` | date | |
-| `deliverable_cp_1` | text | |
+| `deliverable_cp_1_who` | text | The second party's legal name, as in `counterparty_name` |
+| `deliverable_cp_1` | text | Up to three lines |
 | `deliverable_cp_1_date` | date | |
 | `deliverable_cp_2_who` | text | Responsible party for the optional third row. Blank if unused |
-| `deliverable_cp_2` | text | Third row, blank if unused |
+| `deliverable_cp_2` | text | Third row, up to three lines, blank if unused |
 | `deliverable_cp_2_date` | date | Blank if unused |
 | `review_date` | date | Effective date plus 30 |
 | `governing_state` | text | |
@@ -164,3 +166,5 @@ express it. The third row is optional and renders blank when unused.
   are in the repository history.
 - **1.0** (2026-10-02) Signature block reordered: Name and Title on the
   first line, Signature and Date on the second. No change to terms.
+- **1.0** (2026-10-02) The section 1 table names each party by its legal
+  name instead of "First party" and "Second party". No change to terms.
