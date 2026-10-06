@@ -88,7 +88,7 @@ the other hires, partners with, or sells to.
 ## 7. Confidentiality
 
 The confidentiality terms of our Explore Agreement continue unchanged and run for
-their full two years from that agreement's effective date.
+their full year from that agreement's effective date.
 
 ## 8. Ending it
 
@@ -146,3 +146,6 @@ only and binds no one.
 ## Changelog
 
 - **1.0** (2026-10-01) First published version.
+- **1.0** (2026-10-05) Section 7 matches Explore: confidentiality runs one
+  year from the Explore effective date. Made before this version was sent to
+  any party.
