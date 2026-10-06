@@ -69,7 +69,7 @@ extension.
 Each party may share information that is not public. The receiving party will
 use it only to evaluate this opportunity, protect it with at least the care used
 for its own confidential information, and share it only with people who need it
-and are bound by these same terms. This obligation lasts two years from the
+and are bound by these same terms. This obligation lasts one year from the
 effective date.
 
 It does not apply to information already public through no fault of the receiving
@@ -101,14 +101,15 @@ any reason, without explanation or penalty.
 ## 8. It expires on its own
 
 This agreement ends on the review date unless both parties sign an extension or
-a Pursue Agreement. Section 4 survives for its full two years.
+a Pursue Agreement. Section 4 survives for its full year.
 
 ## 9. Entire agreement
 
 This is the entire agreement between the parties on this subject and replaces
 all prior discussions and agreements about it. Any change must be in writing
-and signed by both parties. The laws of {{governing_state}} govern this
-agreement.
+and signed by both parties. The parties may sign this agreement electronically
+and in counterparts. An electronic signature has the same effect as a
+handwritten one. The laws of {{governing_state}} govern this agreement.
 
 ---
 
@@ -172,3 +173,6 @@ express it. The third row is optional and renders blank when unused.
   name instead of "First party" and "Second party". No change to terms.
 - **1.0** (2026-10-02) Each signature block is headed by the party's legal
   name instead of "First party" and "Second party". No change to terms.
+- **1.0** (2026-10-05) Confidentiality in section 4 lasts one year instead
+  of two. Section 9 permits electronic signatures and counterparts. Made
+  before this version was sent to any party.
