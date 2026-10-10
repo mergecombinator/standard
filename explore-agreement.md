@@ -45,24 +45,30 @@ review evidence instead of remembering a conversation.
 
 **Review date: {{review_date}}** (thirty days from the effective date)
 
-On the review date, the parties meet once, review the work, and choose one:
+On the review date, the parties meet once, review the work, and decide
+together whether to:
 
-- **Proceed.** Sign the Pursue Agreement and assign roles.
-- **Stop.** Walk away. Nothing is owed.
+- **Continue** toward a specific opportunity. Any continuation will be set out
+  in a separate written agreement, such as a Pursue Agreement.
+- **Pivot** to a different opportunity, under a new Explore or another written
+  agreement.
 - **Extend once.** Agree in writing to thirty more days and name new
   deliverables. There is no second extension.
+- **End the Explore.** Walk away. Nothing is owed.
 
-## 3. What moves this to Pursue
+## 3. What supports continuing
 
-All three of the following have to be true. Anything less is a stop or an
-extension.
+Before continuing under a separate agreement, the parties look for all three
+of the following. Without them, the usual result is to pivot, extend, or end
+the Explore.
 
 1. **Every party produced what they named.**
 2. **Demand exists outside this room.** At least five people who are not friends
    of the team described the problem in their own words, or one party has a
    written expression of interest, a letter of intent, or money on the table.
-3. **Every core role needed for Pursue has a named owner.** The person does not
-   have to be permanent, but they must own the role through Pursue.
+3. **Every core role needed to continue has a named owner.** The person does
+   not have to be permanent, but they must own the role through the next
+   agreement.
 
 ## 4. Confidentiality, both directions
 
@@ -101,7 +107,7 @@ any reason, without explanation or penalty.
 ## 8. It expires on its own
 
 This agreement ends on the review date unless both parties sign an extension or
-a Pursue Agreement. Section 4 survives for its full year.
+a separate written agreement to continue. Section 4 survives for its full year.
 
 ## 9. Entire agreement
 
@@ -176,3 +182,8 @@ express it. The third row is optional and renders blank when unused.
 - **1.0** (2026-10-05) Confidentiality in section 4 lasts one year instead
   of two. Section 9 permits electronic signatures and counterparts. Made
   before this version was sent to any party.
+- **1.0** (2026-10-09) Sections 2, 3, and 8 describe the review outcome
+  neutrally: continue under a separate written agreement (such as Pursue),
+  pivot, extend once, or end. Pursue is one possible next agreement, not the
+  default. No change to fees, equity, exclusivity, confidentiality, or
+  intellectual property.
