@@ -1,31 +1,31 @@
 # The Merge Standard
 
-> Free, published agreements for forming ventures, from Merge Combinator. Three documents carry a partnership from first conversation to company: Explore (30 days, mutual confidentiality plus one named deliverable per party), Pursue (6 months, roles and formation triggers, no equity), and Form (the company, equity once, against splits published in advance; not yet published). The documents are identical for everyone and are not negotiated. Changes are proposed in public issues and land in the next version.
+> Published agreements for forming ventures between companies and individuals, from Merge Combinator. Three documents take a partnership from first evaluation to an equity relationship: Explore (30 days, mutual confidentiality plus one named deliverable per party), Pursue (6 months, roles and formation conditions, no equity), and Form (equity for a contributing partner in exchange for defined contributions, vesting on milestones; pre-release draft). The text of each document is the same for every party. Deal-specific terms are blanks and schedules, and a departure from a published default is recorded in the schedule with its reason.
 
-Each document carries its version in its first heading block. Merge Combinator publishes these documents, uses them, and reviews them internally; a change is a new version. They are templates provided as is, with no warranty, and are not legal advice.
+Each document states its version in its first heading block and keeps a changelog at the end. Superseded versions remain published in the archive. The documents are templates provided as is, with no warranty, and are not legal advice.
 
 Every URL below returns plain markdown as `text/plain` with open CORS. No file download and no authentication.
 
 ## Documents
 
-- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Version 1.0. Two pages, 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, and the three conditions that support continuing under a separate agreement such as Pursue. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the bottom.
-- [Pursue Agreement](https://mergecombinator.com/standard/pursue.md): Stage 02. Version 1.0. Two pages, 6 months, no equity. Names roles from the taxonomy and defines what must be true before a company is formed.
-- [Form Agreement](https://mergecombinator.com/standard/form.md): Stage 03. Not yet published. The file states what is decided (money is agreed separately, one party is the lead, the company is formed to take institutional rounds) and what it will contain.
+- [Explore Agreement](https://mergecombinator.com/standard/explore.md): Stage 01. Version 1.1. 30 days, no equity. Mutual confidentiality, no exclusivity, one named deliverable per party, a review date, non-binding considerations for continuing, independent-contractor relationship, export control, and standard general terms. Blanks are named tokens such as `{{first_party_name}}` and `{{counterparty_name}}`, listed in the field table at the end.
+- [Pursue Agreement](https://mergecombinator.com/standard/pursue.md): Stage 02. Version 1.1. 6 months, no equity. Names roles from the Role Taxonomy, states the conditions for forming a company, and restricts each party only from pursuing the same opportunity with a third party without notice.
+- [Form Agreement](https://mergecombinator.com/standard/form.md): Stage 03. Version 0.9, pre-release draft, not yet reviewed by counsel. Grants equity to a contributing partner (an individual or an organization) in a new or existing company, vesting on named milestones with a time-based portion. Schedule 1 holds the deal terms, Schedule 2 the default positions by role, and Schedule 3 the terms for forming a new company. Does not cover an investment of money.
 
 ## Reference
 
-- [Role Taxonomy](https://mergecombinator.com/standard/roles.md): The six roles a party picks from in Pursue and Form. You pick a role. You do not draft one.
-- [Venture Pipeline and Gates](https://mergecombinator.com/standard/pipeline.md): The stages from idea to scalable venture and the evidence required to pass each gate. Gates are evidence, not dates.
+- [Role Taxonomy](https://mergecombinator.com/standard/roles.md): Version 1.1. The six roles a participant holds under Pursue and Form, and the conditions for holding a seat on a part-time basis.
+- [Venture Pipeline and Gates](https://mergecombinator.com/standard/pipeline.md): Version 1.1. The stages from an identified problem to an independent venture, and the evidence required to pass each gate.
 
 ## For agents filling in an agreement
 
-- Read the field table at the bottom of the Explore Agreement. Replace each `{{token}}` with a value. Leave the eight signature tokens alone, since the parties fill those when they sign.
-- The deliverables table in section 1 is fixed at three rows. The first two rows name the signing parties; leave the third row blank if no additional responsible party has a deliverable.
+- Read the field table at the end of the Explore Agreement. Replace each `{{token}}` with a value. Leave the eight signature tokens alone, since the parties fill those when they sign.
+- The deliverables table in section 1 is fixed at three rows. The first two rows name the signing parties. Leave the third row blank if no additional responsible party has a deliverable.
 - `review_date` is the effective date plus 30 days.
-- Do not change any other text. Merge Combinator does not sign modified copies. A proposed change belongs in an issue.
+- Do not change any other text. A proposed change to the text belongs in an issue.
 
 ## Source
 
 - [Repository](https://github.com/mergecombinator/standard): Source, versions, and the archive of superseded versions.
 - [Propose a change](https://github.com/mergecombinator/standard/issues/new/choose): Public change proposals.
-- [License](https://github.com/mergecombinator/standard/blob/main/LICENSE): Text is CC BY 4.0. The names are reserved, see TRADEMARK.md in the repository.
+- [License](https://github.com/mergecombinator/standard/blob/main/LICENSE): Text is CC BY 4.0. The names are reserved; see TRADEMARK.md in the repository.

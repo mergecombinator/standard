@@ -1,151 +1,236 @@
-# Merge Combinator Pursue Agreement
+# Pursue Agreement
 
-**Version 1.0**
+**Version 1.1**
 
-*We publish this, we use it on every pursuit we start, and we do not negotiate
-it. This document contains no equity. Equity appears once, at formation, against
-published defaults.*
-
----
-
-Between **Merge Combinator, LLC** ("Merge") and **________________________**
-("You"), effective **____________**.
-
-We completed an Explore period and decided there is something here. This document
-says what we are pursuing, who is doing what, and what has to happen before a
-company gets formed.
+*Part of The Merge Standard, published by Merge Combinator, LLC under the
+Creative Commons Attribution 4.0 International license. Proposed changes are
+received at github.com/mergecombinator/standard. This Agreement grants no
+equity. Equity is addressed only at formation of a company, under Section 9.*
 
 ---
 
-## 1. The opportunity
+This Pursue Agreement (this "Agreement") is entered into as of
+**____________** (the "Effective Date") between
+**______________________________** (the "First Party") and
+**______________________________** (the "Second Party"). The First Party and
+the Second Party are each a "Party" and together the "Parties."
+
+The Parties have evaluated an opportunity, whether under an Explore Agreement
+or otherwise, and have decided to pursue it jointly on the terms below.
+
+---
+
+## 1. The Opportunity
+
+The Parties will pursue the following opportunity (the "Opportunity"):
 
 > ______________________________________________________________
 >
 > ______________________________________________________________
 
-**The problem owner is:** ____________________ (name, organization, role)
+**Problem owner:** ______________________________ (name, organization, and
+role of the person or organization that holds the underlying requirement)
 
-**The user we are building for is:** ______________________________________
+**Intended user:** ______________________________
 
 ## 2. Roles
 
-Roles come from the published Merge role taxonomy. Pick one each. Do not invent
-one.
+Each individual participating in the pursuit holds one role defined in the
+Merge Role Taxonomy, version 1.1 or later (the "Role Taxonomy"), and commits
+the time and deliverables stated below.
 
-| Person | Role | Hours per week | What they deliver in this period |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
-
-**Seats held fractionally.** If anyone is holding a seat on a part-time basis,
-all three of these are filled in. A seat missing any of them is a retainer.
-
-| Seat | Held by | Through | Converts to | Who recruits the permanent holder |
+| Individual | Party | Role | Hours per week | Deliverables during the term |
 |---|---|---|---|---|
-| | | Formation | Founder position at Form | |
+| | | | | |
+| | | | | |
+| | | | | |
 
-## 3. What has to be true before we form a company
+**Seats held on a part-time basis.** For each role held on a part-time basis
+pending formation of a company, the Parties will record the following. A
+part-time seat is held through formation only, converts to a position in the
+company at formation and not to a fee, and requires the holder to recruit a
+permanent holder as a condition of formation.
 
-Formation is triggered when **all** of the following are true:
+| Seat | Held by | Held through | Converts to | Responsible for recruiting the permanent holder |
+|---|---|---|---|---|
+| | | Formation | Founder position at formation | |
+
+## 3. Formation Conditions
+
+The Parties will consider forming a company to carry the Opportunity when all
+of the following conditions are met (the "Formation Conditions"):
 
 1. ______________________________________________________________
 2. ______________________________________________________________
 3. ______________________________________________________________
 
-*Examples of a real trigger: a signed contract or award, a written funding
-commitment, a problem owner confirming in writing that a working prototype meets
-the need, a customer letter of intent.*
+*Examples of a Formation Condition: a signed contract or award, a written
+funding commitment, written confirmation from the problem owner that a working
+prototype meets the requirement, or a customer letter of intent.*
 
-**Nobody is obligated to form anything.** If the triggers are met and any party
-does not want to proceed, they say so and this ends. No penalty, no claim.
+Satisfaction of the Formation Conditions does not obligate any Party to form a
+company. If the Formation Conditions are met and either Party elects not to
+proceed, that Party will notify the other in writing and this Agreement will
+terminate without liability to either Party.
 
-## 4. Money
+## 4. Costs and Compensation
 
-Nobody pays anybody. Each party bears its own costs during this period. There are
-no fees, no retainers, no reimbursements, and no billed hours.
+Neither Party owes the other any fee, retainer, compensation, or reimbursement
+under this Agreement, and each Party bears its own costs and expenses. A Party
+will share an out-of-pocket cost only if both Parties agree in writing before
+the cost is incurred.
 
-If an out-of-pocket cost needs to be shared, we agree to it in writing before it
-is incurred, or it is not shared.
+## 5. Intellectual Property
 
-## 5. Who owns what
+Each Party retains all right, title, and interest in the information,
+materials, and intellectual property it brings to the pursuit and in anything
+it develops independently during the term. Nothing in this Agreement assigns,
+transfers, or grants a license to any intellectual property. If the Parties
+intend to develop anything jointly, they will agree in writing on its
+ownership and permitted use before beginning that work.
 
-Each party keeps what it brought and keeps what it makes on its own during this
-period.
+## 6. Limited Exclusivity
 
-If we create something jointly, we paper it before we create it. Nothing in this
-document assigns, licenses, or transfers any intellectual property.
-
-## 6. Exclusivity, narrow and mutual
-
-For the term of this agreement, neither party will pursue **this specific
-opportunity** with a third party without telling the other first.
-
-That is the whole restriction. Both parties remain free to work on anything else,
-with anyone, including things adjacent to this. Neither party is restricting who
-the other hires, partners with, or sells to.
+During the term, neither Party will pursue the Opportunity with a third party
+without first giving the other Party written notice. This is the only
+restriction this Agreement places on either Party. Each Party remains free to
+pursue any other opportunity, including related opportunities, with any third
+party, and neither Party restricts whom the other may hire, engage, partner
+with, or sell to.
 
 ## 7. Confidentiality
 
-The confidentiality terms of our Explore Agreement continue unchanged and run for
-their full year from that agreement's effective date.
+If the Parties are parties to an Explore Agreement concerning the Opportunity,
+its confidentiality terms continue to apply to information exchanged under
+this Agreement. If they are not, Section 4 of the Explore Agreement, version
+1.1, published at github.com/mergecombinator/standard, is incorporated by
+reference, with the Effective Date of this Agreement as its effective date. In
+either case, the confidentiality obligations continue until the later of the
+end of their original period and one year after this Agreement terminates or
+expires.
 
-## 8. Ending it
+## 8. Term and Termination
 
-Either party may end this with 14 days written notice, for any reason. On
-termination, section 6 falls away immediately and sections 5 and 7 survive.
+This Agreement begins on the Effective Date and expires six months later,
+unless the Parties extend it by a written amendment signed by both Parties or
+enter into an agreement forming a company. Either Party may terminate this
+Agreement for any reason on fourteen days' written notice to the other Party.
+On termination or expiration, Section 6 ends immediately. Sections 5, 7, and
+10 through 12 survive.
 
-This also ends on its own **six months** after the effective date unless both
-parties sign an extension or move to a Form Agreement.
+## 9. Formation
 
-## 9. What formation looks like
+If the Parties form a company to carry the Opportunity, they intend to use the
+Form Agreement published as part of The Merge Standard and the default terms
+by role that it publishes, in the version current at formation. This
+Section 9 states the Parties' intention only and does not obligate either Party
+to negotiate or enter into any future agreement.
 
-If we form, we intend to use the **Merge Form Agreement** and the default terms
-by role it publishes. The Form Agreement is not yet published. When it is, it
-will be at github.com/mergecombinator/standard, and its terms will be set before
-anyone reaches formation rather than negotiated at the end of this process.
+Any investment of money in a company formed under this Section 9, by a Party
+or by a third party, is outside the scope of this Agreement and of the Form
+Agreement and will be agreed separately.
 
-An investment of money in the new company, by Merge or by anyone else, is not
-part of this agreement or of the Form Agreement. It is agreed separately, on its
-own terms.
+## 10. Relationship of the Parties
 
-This section is a statement of what we intend to use. Nothing here obligates any
-party to enter into any future agreement.
+The Parties are independent contractors. This Agreement does not create a
+partnership, joint venture, agency, employment, or fiduciary relationship.
+Neither Party has authority to bind the other or to make any representation or
+commitment on the other's behalf. Neither Party will use the other's name,
+logo, or trademarks, or announce this Agreement publicly, without the other
+Party's prior written consent.
 
-## 10. That is the whole thing
+## 11. Compliance
 
-This is the entire agreement between us on this subject, other than the Explore
-Agreement's confidentiality terms, which survive on their own. Changes must be in
-writing and signed by both. Governed by the laws of ____________.
+Each Party will comply with applicable export control and sanctions laws,
+including the International Traffic in Arms Regulations and the Export
+Administration Regulations. Neither Party will offer compensation, equity, or
+anything of value to a government employee in connection with the Opportunity
+except in compliance with applicable government ethics laws and regulations.
+
+## 12. General
+
+**Limitation of liability.** Except for a breach of Section 7 or Section 11,
+neither Party is liable to the other under this Agreement for any indirect,
+incidental, special, consequential, or punitive damages, or for lost profits
+or lost business opportunity.
+
+**Entire agreement.** This Agreement is the entire agreement between the
+Parties concerning its subject matter and supersedes all prior discussions and
+agreements concerning that subject matter, except for confidentiality terms
+that continue under Section 7.
+
+**Amendment and waiver.** This Agreement may be amended only by a written
+instrument signed by both Parties. A failure or delay in enforcing any
+provision is not a waiver of it.
+
+**Assignment.** Neither Party may assign this Agreement without the other
+Party's prior written consent, except to a successor to all or substantially
+all of the assigning Party's business to which this Agreement relates.
+
+**Notices.** Notices under this Agreement must be in writing and are effective
+when delivered by email to the individual who signed this Agreement for the
+receiving Party, or to another address that Party designates in writing.
+
+**Severability.** If any provision is held unenforceable, the remaining
+provisions remain in effect and the unenforceable provision will be enforced to
+the maximum extent permitted.
+
+**Governing law.** The laws of ____________ govern this Agreement, without
+regard to its conflict of laws rules.
+
+**Authority.** Each individual signing below represents that they are
+authorized to sign this Agreement on behalf of the Party named above their
+signature.
+
+**Counterparts and electronic signatures.** This Agreement may be signed in
+counterparts and by electronic signature, each of which has the same effect as
+an original handwritten signature.
 
 ---
 
-**Merge Combinator, LLC**
+**First Party:** ______________________________
 
-Signature ____________________  Name ____________________  Date __________
+Name ____________________  Title ____________________
 
-**Counterparty**
+Signature ____________________  Date __________
 
-Signature ____________________  Name ____________________  Date __________
+**Second Party:** ______________________________
+
+Name ____________________  Title ____________________
+
+Signature ____________________  Date __________
 
 ---
 
-### A note on why section 9 reads the way it does
+## Drafting note on Section 9
 
-Teaming agreements in this industry routinely promise a future subcontract on
-terms to be negotiated later. Virginia courts, which govern a large share of
-government contracting relationships, have repeatedly held those to be
-unenforceable agreements to agree. The usual fix is to front-load an entire
-subcontract into the teaming agreement, which nobody wants to do this early.
+This note is not part of the Agreement.
 
-We take the other route. We do not promise to agree later. The Form terms are
-published before anyone reaches formation, so there is nothing left to negotiate
-if we get there. Until the Form Agreement is published, section 9 states intent
-only and binds no one.
+Teaming agreements commonly commit the parties to a future subcontract on
+terms to be negotiated later. Virginia courts, whose law governs many
+government contracting relationships, have held such provisions to be
+unenforceable agreements to agree. The usual alternative is to include a
+complete subcontract in the teaming agreement, which is rarely practical at
+this stage.
+
+Section 9 takes a different approach. It does not commit the Parties to agree
+later. The Form Agreement and its default positions by role are published
+before any Party reaches formation, and a departure from a default is recorded
+in the Form Agreement's Schedule 1 rather than negotiated into its text.
+Section 9 states intent only and binds neither Party.
 
 ## Changelog
 
-- **1.0** (2026-10-01) First published version.
-- **1.0** (2026-10-05) Section 7 matches Explore: confidentiality runs one
-  year from the Explore effective date. Made before this version was sent to
-  any party.
+- **1.1** (2026-11-24) Rewritten for use between any two companies. The First
+  Party and Second Party replace "Merge" and "You," and defined terms are used
+  throughout. The roles table names each individual's Party. Section 7
+  incorporates Explore confidentiality by reference when no Explore Agreement
+  exists, and confidentiality continues until one year after this Agreement
+  ends. New sections: Relationship of the Parties, Compliance (export control
+  and government ethics), and General (limitation of liability, assignment,
+  notices, severability, authority, electronic signatures). No change to the
+  term, fees, equity, the scope of exclusivity, or the notice period for
+  termination. Version 1.0 is in
+  [`archive/1.0/`](archive/1.0/pursue-agreement.md).
+- **1.0** (2026-10-01) First published version. Its later revisions are listed
+  in the archived copy.
